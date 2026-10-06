@@ -6,5 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'RocketLazyLoadPlugin\\' => array($baseDir . '/src'),
+    'WPMedia\\Options\\' => array($vendorDir . '/wp-media/options/inc'),
+    'WPMedia\\EventManager\\' => array($vendorDir . '/wp-media/event-manager/inc'),
+    'RocketLazyload\\' => array($vendorDir . '/wp-media/rocket-lazyload-common/src'),
+    'RocketLazyLoadPlugin\\' => array($baseDir . '/inc'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'League\\Container\\' => array($vendorDir . '/league/container/src'),
 );
